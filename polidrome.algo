@@ -1,0 +1,16 @@
+FUNCTION Polindrome(refer) : STRING
+VAR
+    refer : STRING
+    i : INTEGER
+BEGIN
+    IF (i[0] <= 1) THEN
+        Write("true")
+    END_IF
+    FOR i FROM 0 TO string.length -1 DO
+    IF (i[0] != string.length -1) THEN
+        write ("false")
+    ELSE
+    RETURN Polindrome(i[1], string.length-1)
+    END_IF
+    END_FOR
+END
