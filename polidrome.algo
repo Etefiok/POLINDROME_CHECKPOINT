@@ -7,7 +7,7 @@ BEGIN
         Write("true")
     END_IF
     FOR i FROM 0 TO word.length -1 DO
-    IF (word.length[0] != string.length -1) THEN
+    IF (word.length[0] != word.length -1) THEN
         write ("false")
     ELSE
     RETURN Polindrome(i[1], word.length-1)
